@@ -60,6 +60,17 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+.download-button,
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Title Image */
 
@@ -69,4 +80,14 @@ p {
     position: absolute;
     right: 30%;
     margin: 0rem 0rem;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
