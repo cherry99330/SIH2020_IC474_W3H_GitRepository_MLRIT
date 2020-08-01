@@ -20,7 +20,7 @@ p {
 /* Containers */
 
 .container-fluid {
-    padding: 7% 15%;
+    padding: 7% 17%;
 }
 
 
@@ -64,8 +64,9 @@ p {
 /* Title Image */
 
 .title-image {
-    width: 60%;
-    transform: rotate(25deg);
+    width: 50%;
+    transform: rotate(20deg);
     position: absolute;
     right: 30%;
+    margin: 0rem 0rem;
 }
