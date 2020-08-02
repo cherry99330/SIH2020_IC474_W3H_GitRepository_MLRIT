@@ -74,12 +74,12 @@ p {
     margin: 5% 3% 5% 0;
 }
 
-.download-button,
-a {
+.download-button a {
     text-decoration: none;
     color: aliceblue;
 }
 
+.download-button,
 a:hover {
     text-decoration: none;
     color: #fff;
@@ -98,7 +98,7 @@ a {
     color: black;
 }
 
-a:hover {
+.download-image a:hover {
     text-decoration: none;
     color: #fff;
 }
@@ -139,6 +139,10 @@ a:hover {
 
 #target img:hover {
     background-color: black;
+}
+
+.image p {
+    margin-top: 1.5rem;
 }
 
 @media (max-width: 1028px) {
