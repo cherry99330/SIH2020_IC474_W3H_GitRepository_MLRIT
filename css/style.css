@@ -152,3 +152,22 @@ a {
         margin: 0rem 0rem;
     }
 }
+
+.vid video {
+    height: 15rem;
+    width: 20rem;
+}
+
+@media (max-width: 1028px) {
+    .vid video {
+        height: 30rem;
+        width: 20rem;
+        margin: 1rem 0rem;
+    }
+}
+
+@media (max-width: 1028px) {
+    .gal img {
+        margin: 1rem 0rem;
+    }
+}
