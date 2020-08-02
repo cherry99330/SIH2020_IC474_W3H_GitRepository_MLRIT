@@ -24,11 +24,25 @@ p {
 }
 
 
+/* Headings */
+
+.section-heading {
+    margin-top: 4rem;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
 /* Sections */
 
 .colored-section {
     background-color: #7b90ee;
     color: #fff;
+    z-index: -1;
+}
+
+.white-section {
+    background-color: #fff;
 }
 
 
@@ -72,6 +86,24 @@ a:hover {
 }
 
 
+/* Buttons  image*/
+
+.download-image {
+    margin: 5% 3% 5% 0;
+}
+
+.download-image,
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+
 /* Title Image */
 
 .title-image {
@@ -89,5 +121,30 @@ a:hover {
     .title-image {
         position: static;
         transform: rotate(0);
+    }
+}
+
+
+/* target image  */
+
+.image img {
+    height: 15rem;
+    width: 15rem;
+    margin: 0rem 0rem;
+}
+
+.target-img {
+    margin-top: 3rem;
+}
+
+#target img:hover {
+    background-color: black;
+}
+
+@media (max-width: 1028px) {
+    .image img {
+        height: 30rem;
+        width: 30rem;
+        margin: 0rem 0rem;
     }
 }
